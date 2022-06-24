@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Login</title>
+
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <main class="login-page">
+    <div class="img-login">
+    </div>
+
+    <div class="container-login">
+      <div class="title">
+        <h1>Login Form</h1>
+      </div>
+
+      <div class="inputs">
+        <div class="email">
+          <label for="email">E-mail:</label>
+          <input type="text" id="email">
+        </div>
+
+        <div class="password">
+          <label for="password">Senha:</label>
+          <input type="password" id="password">
+        </div>
+      </div>
+
+      <div class="remember-forget">
+        <div class="remember">
+          <input type="checkbox" id="checkbox">
+          <label for="remember" id="remember" onclick="rememberMe()">Remember Me</label>
+        </div>
+
+        <div class="forget">
+          <a href="#">Forget Password</a>
+        </div>
+      </div>
+
+      <div class="buttons">
+        <button type="submit" class="submit">Submit</button>
+        <button class="login-fb">Login With Facebook</button>
+      </div>
+
+      <div class="sign-up">
+        <h4>Get Members Benefit. 
+          <a href="#">Sign Up</a>
+        </h4>
+      </div>
+    </div>
+  </main>
+
+  <script>
+    let checkbox = document.querySelector('#checkbox')
+    let remember = document.querySelector('#remeber')
+
+    function rememberMe() {
+      
+    }
+  </script>
+</body>
+</html>
